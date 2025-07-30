@@ -1,0 +1,6 @@
+Actualizaciones para la segunda pre-entrega:
+
+1. Agregar flex/grid
+2. Aplicar media queries => tener si o si 2 páginas 100% responsive 2/5 (avisarnos cuales páginas estan adaptadas)
+3. Usar Bootstrap, ya sea 1 componente (carousel, card, navbar,etc) y aplicar estilos básicos (font-size,colores,etc.)
+4. Entregar via GitHub con GitHub Pages activado (todavia no lo vimos)
