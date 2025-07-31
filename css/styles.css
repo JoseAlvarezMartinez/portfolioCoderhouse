@@ -64,10 +64,13 @@ ul {
 .text-center {
   text-align: center;
 }
+.navbar ul li a:hover{
+  color: black;
+}
 /* Header Estilos */
 
 .index-header,
-.proyectos-header {
+.proyectos-header,.contacto-header {
   background-image: url(../img/indexHeaderBackground.jpg);
   background-size: cover;
 
@@ -78,6 +81,9 @@ ul {
 .proyectos-header {
   background-image: url(../img/proyectosBackground.jpeg);
   background-position: right;
+}
+.contacto-header{
+  background-image: url(../img/contactoWallpaper.webp);
 }
 .index-h1::before {
   content: "< ";
@@ -129,6 +135,7 @@ ul {
 .fondoNegro {
   background-color: #000;
 }
+
 /* Main Estilos */
 main {
   margin: 2rem 0;
@@ -202,6 +209,12 @@ main {
   padding: 1rem;
   border-radius: 0.5rem;
 }
+.card{
+  transition: transform 0.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
 /* Footer Estilos */
 .derechos-footer {
   color: var(--colorBlanco);
@@ -221,6 +234,7 @@ footer img {
   gap: 1rem;
   margin-top: 0.5rem;
 }
+
 @media only screen and (min-width: 800px) {
   .avatar {
     display: block;
@@ -240,7 +254,7 @@ footer img {
     height: 27rem;
   }
   #carouselExampleCaptions {
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
   }
 }
