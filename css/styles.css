@@ -35,8 +35,8 @@
   height: 100%;
   background-color: #0000008e;
 }
-.oscurecer-fondo-proyecto{
-    background-color: #00000049;
+.oscurecer-fondo-proyecto {
+  background-color: #00000049;
 }
 header a {
   color: var(--colorBlanco);
@@ -178,71 +178,29 @@ main {
 }
 .contenedor-proyectos-grid_1 p,
 .contenedor-proyectos-grid_1 h3,
-.contenedor-proyectos-grid_2 p ,
+.contenedor-proyectos-grid_2 p,
 .contenedor-proyectos-grid_2 h3,
-.contenedor-proyectos-grid_3 p ,
+.contenedor-proyectos-grid_3 p,
 .contenedor-proyectos-grid_3 h3,
 .contenedor-proyectos-grid_4 p,
 .contenedor-proyectos-grid_4 h3,
 .contenedor-proyectos-grid_5 p,
-.contenedor-proyectos-grid_5 h3{
+.contenedor-proyectos-grid_5 h3 {
   padding-left: 1rem;
 }
-.proyectos-h2{
+.proyectos-h2 {
   margin: 2rem 0;
 }
 /* Experiancia Estilos */
-.experiencia-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+.experiencia{
   padding: 0 1rem;
 }
-.testing {
-  background-color: aqua;
-}
-.experiencia-card {
-  background-color: #1a1a1a;
-  width: 100%;
-  padding: 2rem;
+.card-experiencia {
+  background-color: var(--colorNegro);
+  max-width: 30rem;
+  height: 20rem;
+  padding: 1rem;
   border-radius: 0.5rem;
-  text-align: center;
-}
-.experiencia-card h4 {
-  font-weight: 500;
-  margin: 0.5rem 0;
-}
-.experiencia-card p {
-  font-weight: 300;
-}
-.proyectos-container {
-  gap: 2.5rem;
-}
-
-.experiencia-container-grid{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
-  gap: 0.5rem;
-
-  padding: 0 1rem;
-  margin-bottom: 1rem;
-}
-.experiencia-container-grid article{
-  border: 1px solid rgb(0, 0, 0);
-}
-.experiencia_1{
-  grid-area: 1/1/2/3;
-}
-.experiencia_2{
-    grid-area: 1/3/2/4;
-}
-.experiencia_3{
-    grid-area: 2/1/3/2;
-}
-.experiencia_4{
-    grid-area: 2/2/3/4;
 }
 /* Footer Estilos */
 .derechos-footer {
@@ -268,16 +226,21 @@ footer img {
     display: block;
     width: 15rem;
   }
-  .index-header-contenedor-superior, ul{
+  .index-header-contenedor-superior,
+  ul {
     flex-direction: row;
   }
   .index-header-contenedor-inferior p {
     max-width: 30rem;
   }
-  .experiencia-card{
+  .experiencia-card {
     max-width: 35rem;
   }
-  .card-proyecto img{
+  .card-proyecto img {
     height: 27rem;
+  }
+  #carouselExampleCaptions {
+    max-width: 75%;
+    margin: 0 auto;
   }
 }
