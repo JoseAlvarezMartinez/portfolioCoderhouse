@@ -198,6 +198,19 @@ main {
 .proyectos-h2 {
   margin: 2rem 0;
 }
+
+.form-contacto{
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  height: 30rem;
+  margin: 0 auto;
+}
+.form-contacto input {
+  background-color: #000000;
+  border-color: gold;
+}
 /* Experiancia Estilos */
 .experiencia{
   padding: 0 1rem;
