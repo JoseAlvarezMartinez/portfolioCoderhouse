@@ -1,0 +1,59 @@
+/* Header Estilos */
+
+.index-header {
+  background-image: url(../img/indexHeaderBackground.jpg);
+  @extend %backgroundPages;
+}
+.proyectos-header {
+  background-image: url(../img/proyectosBackground.jpeg);
+  @extend %backgroundPages;
+}
+.contacto-header {
+  background-image: url(../img/contactoWallpaper.webp);
+}
+.index-h1::before {
+  content: "< ";
+  @extend %headingBeforeAfter;
+}
+.index-h1::after {
+  content: " />";
+  @extend %headingBeforeAfter;
+}
+.index-header-btn {
+  background-color: rgb(128, 128, 128);
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: $blanco;
+}
+.index-header-contenedor-superior {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.index-header-contenedor-inferior {
+  @extend %flexBasico;
+  flex-direction: column;
+  gap: 1rem;
+
+  height: 100vh;
+  padding: 0 1.5rem;
+}
+.logosHeader {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+}
+.index-header-contenedor-inferior p {
+  text-align: center;
+}
+.bienvenida-texto {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fondoNegro {
+  background-color: #000;
+}

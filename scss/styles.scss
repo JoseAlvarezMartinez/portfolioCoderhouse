@@ -1,0 +1,72 @@
+@import "./utilities/extends";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/experiencias";
+@import "./layout/footer";
+@import "./mq/mq";
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wppContainer {
+  @include fondoAltoAncho(4rem, 4rem, #116c09);
+  @extend %flexBasico;
+
+  
+  border-radius: 50%;
+
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  cursor: pointer;
+}
+.wppLogo {
+  width: 2.5rem;
+}
+.oscurecer-fondo {
+  position: absolute;
+  @include fondoAltoAncho(100%, 100%, #0000008e);
+}
+.oscurecer-fondo-proyecto {
+  background-color: #00000049;
+}
+header a {
+  color: $blanco;
+  text-decoration: none;
+  font-weight: 500;
+}
+.centrar-texto {
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+.titulos-margin {
+  margin: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.avatar {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+.navbar ul li a:hover {
+  color: black;
+}
+
+
+

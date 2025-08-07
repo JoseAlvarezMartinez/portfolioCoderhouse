@@ -1,0 +1,74 @@
+/* Main Estilos */
+main {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+.card-proyecto h3 {
+  color: $blanco;
+  font-weight: 400;
+}
+
+.card-proyecto {
+  background-color: $negro;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-proyecto img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.contenedor-proyectos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.contenedor-proyectos-grid_1,
+.contenedor-proyectos-grid_2,
+.contenedor-proyectos-grid_3,
+.contenedor-proyectos-grid_4,
+.contenedor-proyectos-grid_5 {
+  background-color: rgb(240, 240, 240);
+  max-width: 30rem;
+  padding-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.323);
+}
+.contenedor-proyectos-grid_1 img,
+.contenedor-proyectos-grid_2 img,
+.contenedor-proyectos-grid_3 img,
+.contenedor-proyectos-grid_4 img,
+.contenedor-proyectos-grid_5 img {
+  width: 100%;
+}
+.contenedor-proyectos-grid_1 p,
+.contenedor-proyectos-grid_1 h3,
+.contenedor-proyectos-grid_2 p,
+.contenedor-proyectos-grid_2 h3,
+.contenedor-proyectos-grid_3 p,
+.contenedor-proyectos-grid_3 h3,
+.contenedor-proyectos-grid_4 p,
+.contenedor-proyectos-grid_4 h3,
+.contenedor-proyectos-grid_5 p,
+.contenedor-proyectos-grid_5 h3 {
+  padding-left: 1rem;
+}
+.proyectos-h2 {
+  margin: 2rem 0;
+}
+.form-contacto {
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  height: 30rem;
+  margin: 0 auto;
+}
+.form-contacto input {
+  background-color: #000000;
+  border-color: gold;
+}

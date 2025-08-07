@@ -1,0 +1,14 @@
+%flexBasico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%backgroundPages {
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+%headingBeforeAfter {
+  color: rgb(0, 255, 255);
+  font-weight: 400;
+}

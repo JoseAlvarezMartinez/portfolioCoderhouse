@@ -1,0 +1,24 @@
+
+@media only screen and (min-width: 800px) {
+  .avatar {
+    display: block;
+    width: 15rem;
+  }
+  .index-header-contenedor-superior,
+  ul {
+    flex-direction: row;
+  }
+  .index-header-contenedor-inferior p {
+    max-width: 30rem;
+  }
+  .experiencia-card {
+    max-width: 35rem;
+  }
+  .card-proyecto img {
+    height: 27rem;
+  }
+  #carouselExampleCaptions {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
